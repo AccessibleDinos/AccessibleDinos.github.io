@@ -10,7 +10,7 @@
    color: teal?
    yellow?
     */
-   @import url('https://fonts.googleapis.com/css?family=News+Cycle|Josefin+Slab');
+   @import url('https://fonts.googleapis.com/css?family=Nunito:400i|Philosopher:700i');
 
     html,
     body {
@@ -18,7 +18,15 @@
       justify-content: space-between;
       flex-direction: column;
       height: 100%;
-      font-family: "News Cycle", sans-serif;
+      font-family: 'Nunito', sans-serif;
+      width: 100%;
+    },
+    header {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      font-family: 'Philosopher', sans-serif;
       width: 100%;
     }
     /* Default link styling */
@@ -37,7 +45,7 @@
     h1,
     h2,
     h3{
-      font-family: "Josefin Slab", serif;
+      font-family: 'Philosopher', serif;
     }
 
     h1{
@@ -176,85 +184,7 @@
     .screen-reader-only{
       display: none;
     }
-
-    #previousMemes {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 10px 10px;
-
-        max-width: 100%;
-        margin: auto;
-    }
-
-    #previousMemes img {
-        max-width: 100%;
-        margin: 1em;
-    }
-    #covfefeImg {
-        grid-column-start: 1;
-        grid-column-end: span 1;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-    }
-    #comparisonsImg {
-        grid-column-start: 2;
-        grid-column-end: span 1;
-        grid-row-start: 1;
-        grid-row-end: span 1;
-    }
-    #bannonImg {
-        grid-column-start: 1;
-        grid-column-end: span 1;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-    }
-    #aliensImg {
-        grid-column-start: 2;
-        grid-column-end: span 1;
-        grid-row-start: 2;
-        grid-row-end: span 1;
-    }
-
-    #memeGen {
-      position: relative;
-      max-width: 100%;
-      max-height: 100%;
-      height: auto;
-      margin: 0 auto;
-      padding-left: 13%;
-      padding-right: 13%;
-    }
-
-    legend{
-      height: 0;
-      overflow: hidden;
-    }
-
-    fieldset{
-      border: none;
-    }
-
-    #pricesTable {
-        border-collapse: collapse;
-        width: 90%;
-    }
-    #pricesTable td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-    #pricesTable th {
-        font-family: "Josefin Slab", serif;
-        font-size: 1.17em;
-        font-style: italic;
-    }
-    #pricesTable tr:nth-child(even) {
-        background-color: #eeeeee;
-    }
-    #pricesTableColHdr2, #pricesTableColHdr3, #pricesTableColHdr4 {
-        text-align: center;
-    }
+    
     caption {
         caption-side: bottom;
     }
