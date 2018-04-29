@@ -41,29 +41,34 @@
    Author's styles
    ---------------------------------------------------------*/
 
-
-    h1,
-    h2,
-    h3{
-      font-family: 'Philosopher', serif;
-      color: #fff;
-    }
-
     h1{
-      font-size: 2em;
+      font-size: 3em;
       text-align: center
     }
 
     h1.hidden{
       visibility: hidden;
+      font-size: 0em;
+    }
+
+    h2{
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Philosopher', sans-serif;
     }
 
     h2.hidden{
       visibility: hidden;
     }
 
+    h3{
+      font-family: 'Philosopher', serif;
+      color: #fff;
+      font-size: 1.5em;
+    }
+
     header{
-      padding: 1em;
+      padding: 0;
       width: 100%;
     }
 
@@ -76,6 +81,7 @@
     body{
       background-color: #008df6;
       color: #fff;
+      font-size: 1em;
     }
 
     ul{
@@ -83,9 +89,7 @@
       display: inline;
     }
     ul.horizontal-list {
-    	min-width: 696px;
     	list-style: none;
-    	padding-top: 20px;
     }
 	  ul.horizontal-list li {
 		  display: inline;
@@ -100,7 +104,7 @@
 
     th, td{
       text-align: left;
-      padding: 8em
+      padding: 0;
     }
 
     img {
@@ -281,7 +285,7 @@
     }
 
     figure img {
-      border:1px solid #000;
+      border:1em solid #000;
     }
 }
 
