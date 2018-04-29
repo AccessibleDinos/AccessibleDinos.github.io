@@ -48,7 +48,7 @@
 
     h1.hidden{
       visibility: hidden;
-      font-size: 0.000001em;
+      font-size: 0em;
     }
 
     h2{
