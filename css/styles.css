@@ -82,12 +82,12 @@
       list-style-type: none;
       display: inline;
     }
-    ul#horizontal-list {
+    ul.horizontal-list {
     	min-width: 696px;
     	list-style: none;
     	padding-top: 20px;
     }
-	  ul#horizontal-list li {
+	  ul.horizontal-list li {
 		  display: inline;
     }
 
@@ -108,7 +108,7 @@
       height: auto;
     }
 
-    img#header {
+    img.header {
       width: auto;
     }
 
