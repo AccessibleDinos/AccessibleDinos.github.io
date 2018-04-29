@@ -58,6 +58,10 @@
       visibility: hidden;
     }
 
+    h2.hidden{
+      visibility: hidden;
+    }
+
     header{
       padding: 1em;
       width: 100%;
@@ -74,16 +78,54 @@
       color: #fff;
     }
 
+    ul{
+      list-style-type: none;
+      display: inline;
+    }
+    ul#horizontal-list {
+    	min-width: 696px;
+    	list-style: none;
+    	padding-top: 20px;
+    }
+	  ul#horizontal-list li {
+		  display: inline;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 0;
+    }
+
+    th, td{
+      text-align: left;
+      padding: 8em
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    img#header {
+      width: auto;
+    }
+
+    a[target="_blank"]:after {
+      content: "  (external)";
+    }
+
 /* ---------------------------------------------------------
    Navigation (hamburger) Menu Styling
    ---------------------------------------------------------*/
-    /* .topnav {
+    .topnav {
       background-color: #0066ff;
       overflow: hidden;
-    } */
+    }
 
     /* Navigation Bar Links */
-    /* .topnav a {
+    .topnav a {
       float: left;
       display: block;
       color: white;
@@ -91,38 +133,38 @@
       padding: 1em 2em;
       text-decoration: none;
       font-size: 1.5em;
-    } */
+    }
 
     /* Link Color Change */
-    /* .topnav a:hover {
+    .topnav a:hover {
       background-color: #99ccff;
       color: black;
-    } */
+    }
 
     /* Highlight current page (active class) */
-    /* .active {
+    .active {
       background-color: black;
       color: white;
-    } */
+    }
 
     /* Hid link to open/close topnav on small screens */
-    /* .topnav .icon {
+    .topnav .icon {
       display: none;
-    } */
+    }
 
     /* Media Queries */
 
     /* when screen < 600px wide, hide links, except Home (1st one). Show hamburger menu */
-    /* @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
         float: right;
         display: block;
       }
-    } */
+    }
 
     /* Responsive class (added in JavaScript) */
-    /* @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       .topnav.responsive {position: relative;}
       .topnav.responsive a.icon {
         position: absolute;
@@ -134,11 +176,11 @@
         display: block;
         text-align: left;
       }
-    } */
+    }
 
     /* NOTE: The following JavaScript needs to be included after menus for
              every page using this menu system. */
-/*
+
     <script>
     function myFunction() {
       var x = document.getElementbyID("myTopnav");
@@ -149,7 +191,7 @@
       }
     }
     </script>
-*/
+
 /* ---------------------------------------------------------
    End Hamburger Menu Styling
    ---------------------------------------------------------*/

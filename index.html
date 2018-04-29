@@ -17,33 +17,34 @@
 </head>
 
 <body>
-  <!-- <header role="banner">
-
-    <h1>[Accessible] Dinosaur Comics<h1>
-
-  </header> -->
-
-  <div class="header">
-    <center><img src="media/Logo/accessibleLogo.png" alt="logo" /></center>
-    <h1 class="hidden">[Accessible] Dinosaur Comics</h1>
-  </div>
+  <header>
+    <center>
+      <a href="https://accessibledinos.github.io">
+        <img id="header" src="media/Logo/accessibleLogo.png" alt="logo" /></center>
+        <h1 class="hidden">[Accessible] Dinosaur Comics</h1>
+      </a>
+    </center>
+    <center>
+      <!-- <div class="topnav" id="myTopnav"> -->
+      <ul id="horizontal-list">
+        <li><a href="./about.html">about</a></li>
+        <li class="padded-bullet">•</li>
+        <li><a href="./archive.html">archive</a></li>
+        <li class="padded-bullet">•</li>
+        <br>
+        <li><a href="#NewestComic">newest(ish) comic</a></li>
+        <li class="padded-bullet">•</li>
+        <li><a href="www.qwantz.com/index.php"><abbr title="qwantz.com">original site</abbr></a></li
+      </ul>
+      <!-- </div> -->
+    </center>
+  </header>
 
   <div class="wrap">
 
     <main role="main">
-      <header>
-        <!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
-        <nav aria-labelledby="page-navigation">
-          <h2 id="page-navigation">Navigation</h2>
-            <ul>
-              <li><a href="#NewestComic">The Newest(ish) Comic</a></li>
-              <li>Comic Archive</li> <!-- Eventually add a separate page for this -->
-              <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-      </header>
-
       <section id="NewestComic">
+        <center>
         <h3>Newest(ish) Comic</h3>
 
         <!-- Content -->
@@ -51,17 +52,24 @@
         <p>
           This comic is from <strong>April 18, 2018</strong>. It has not yet been made accessible.
         </p>
+      </center>
 
       </section>
 
-      <address>
-        <p>For further information about creating accessible comics, please contact <a href="mailto:brithosul@gmail.com">Brian</a>.</p>
-      </address>
+      <br>
+      <br>
+      <center>
+        <address>
+          <p>For further information about creating accessible comics, please contact <a href="mailto:brithosul@gmail.com">Brian</a>.</p>
+        </address>
+      </center>
     </main>
 
   </div>
 
   <footer role="contentinfo">
-    <small>Comics are &copy; Ryan North <time datetime="2003-2018">2003-2018</time>.</small>
-    <small>Website is &copy; Brian T. Sullian <time datetime="2018">2018</time>.</small>
+    <center>
+      <small>Comics are &copy; Ryan North <time datetime="2003-2018">2003-2018</time>.</small>
+      <small>Website is &copy; Brian T. Sullian <time datetime="2018">2018</time>.</small>
+    </center>
   </footer>
