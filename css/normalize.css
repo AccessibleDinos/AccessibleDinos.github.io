@@ -8,12 +8,12 @@
 *{
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 3;
   transition: all .3s;
 }
 
 html {
-  font-family: "News Gothic", sans-serif; /* 1 */
+  font-family: "Avenir Next", sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -23,7 +23,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 3;
 }
 
 /* HTML5 display definitions
