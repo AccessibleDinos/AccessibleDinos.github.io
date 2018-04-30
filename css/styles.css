@@ -70,6 +70,8 @@
     }
 
     header{
+      background-color: #008df6;
+      color: #fff;
       padding: 0;
       width: 100%;
     }
@@ -91,7 +93,7 @@
       display: inline;
     }
     ul.horizontal-list {
-    	list-style: none;
+    	list-style-type: none;
     }
 	  ul.horizontal-list li {
 		  display: inline;
