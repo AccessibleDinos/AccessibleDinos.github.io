@@ -19,7 +19,8 @@
       flex-direction: column;
       height: 100%;
       font-family: 'Nunito', sans-serif;
-      width: 100%;
+      max-width: 100em;
+      margin: 4em;
     },
     header {
       display: flex;
@@ -27,6 +28,7 @@
       flex-direction: column;
       height: 100%;
       font-family: 'Philosopher', sans-serif;
+      max-width: 200em;
       width: 100%;
     }
     /* Default link styling */

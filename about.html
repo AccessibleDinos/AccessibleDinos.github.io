@@ -10,6 +10,7 @@
   <meta name="description" content="This is the main page of an accessible version of Ryan North's Dinosaur Comics.">
   <meta name="keywords" content="accessibility,Dinosaur Comics,Ryan North,Accessible Dinos,accessible comics,web comics,accessible web comics"/>
 
+  <link href="css/styles.css" rel="stylesheet" media="all">
   <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width,
   and setting the initial page zoom level to be 1 (initial-scale=1.0), and fixinng width=device-width for iOS9 (shtink-to-fit=no) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -18,23 +19,44 @@
 <body>
   <header role="banner">
 
-    <h1>About<h1>
+    <header>
+      <center>
+        <a href="./index.html">
+          <!-- <h1 class="hidden">[Accessible] Dinosaur Comics</h1> -->
+          <img class="header" src="media/Logo/accessibleLogo.png" alt="[Accessible] Dinosaur Comics">
+          <h1 class="hidden"><em>[Accessible] Dinosaur Comics</em></h1>
+        </center>
+        </a>
+      </center>
+      <center>
+        <flex-wrap>
+        <ul class="horizontal-list">
+          <li><a href="./about.html">about</a></li>
+          <li class="padded-bullet">•</li>
+          <li><a href="./archive.html">archive</a></li>
+          <li class="padded-bullet">•</li>
+          <li><a href="./index.html#NewestComic">newest(ish) comic</a></li>
+          <li class="padded-bullet">•</li>
+          <li><a href="http://www.qwantz.com/index.php"><abbr title="qwantz.com">original site</abbr></a></li>
+        </ul>
+      </flex-wrap>
+      </center>
+    </header>
+
+    <h2>About</h2>
+    <nav aria-labelledby="page-navigation">
+      <center>
+        <ul class="horizontal-list">
+          <li><a href="#AboutDino">About Dinosaur Comics</a></li>
+          <li class="padded-bullet">•</li>
+          <li><a href="#AboutA11y">About Accessible Comics</a></li>
+        </ul>
+      </center>
+    </nav>
 
   </header>
 
-  <div class="wrap">
-
     <main role="main">
-      <header>
-        <!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
-        <nav aria-labelledby="page-navigation">
-          <h2 id="page-navigation">Navigation</h2>
-            <ul>
-              <li><a href="#AboutDino">About Dinosaur Comics</a></li>
-              <li><a href="#AboutA11y">About Accessible Comics</a></li>
-            </ul>
-        </nav>
-      </header>
 
       <section id="AboutDino">
         <h3>About Dinosaur Comics</h3>
@@ -62,7 +84,6 @@
       </address>
     </main>
 
-  </div>
 
   <footer role="contentinfo">
     <small>Comics are &copy; Ryan North <time datetime="2003-2018">2003-2018</time>.</small>
