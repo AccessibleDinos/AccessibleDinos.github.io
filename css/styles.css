@@ -70,7 +70,7 @@
     }
 
     header{
-      background-color: #008df6;
+      background-color: #075b9a;
       color: #fff;
       padding: 0;
       width: 100%;
@@ -83,7 +83,7 @@
     }
 
     body{
-      background-color: #008df6;
+      background-color: #075b9a;
       color: #fff;
       font-size: 1em;
     }
@@ -137,13 +137,13 @@
 /* ---------------------------------------------------------
    Navigation (hamburger) Menu Styling
    ---------------------------------------------------------*/
-    .topnav {
-      background-color: #0066ff;
+    /* .topnav {
+      background-color: #075b9a;
       overflow: hidden;
-    }
+    } */
 
     /* Navigation Bar Links */
-    .topnav a {
+    /* .topnav a {
       float: left;
       display: block;
       color: white;
@@ -151,38 +151,38 @@
       padding: 1em 2em;
       text-decoration: none;
       font-size: 1.5em;
-    }
+    } */
 
     /* Link Color Change */
-    .topnav a:hover {
+    /* .topnav a:hover {
       background-color: #99ccff;
       color: black;
-    }
+    } */
 
     /* Highlight current page (active class) */
-    .active {
+    /* .active {
       background-color: black;
       color: white;
-    }
+    } */
 
     /* Hid link to open/close topnav on small screens */
-    .topnav .icon {
+    /* .topnav .icon {
       display: none;
-    }
+    } */
 
     /* Media Queries */
 
     /* when screen < 600px wide, hide links, except Home (1st one). Show hamburger menu */
-    @media screen and (max-width: 600px) {
+    /* @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
         float: right;
         display: block;
       }
-    }
+    } */
 
     /* Responsive class (added in JavaScript) */
-    @media screen and (max-width: 600px) {
+    /* @media screen and (max-width: 600px) {
       .topnav.responsive {position: relative;}
       .topnav.responsive a.icon {
         position: absolute;
@@ -194,12 +194,12 @@
         display: block;
         text-align: left;
       }
-    }
+    } */
 
     /* NOTE: The following JavaScript needs to be included after menus for
              every page using this menu system. */
 
-    <script>
+    /* <script>
     function myFunction() {
       var x = document.getElementbyID("myTopnav");
       if (x.className === "topnav") {
@@ -208,7 +208,7 @@
         x.className = "topnav";
       }
     }
-    </script>
+    </script> */
 
 /* ---------------------------------------------------------
    End Hamburger Menu Styling
