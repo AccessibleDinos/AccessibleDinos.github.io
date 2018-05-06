@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Set site language to English -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Accessible Dinosaur Comics - April 18, 2018 - Audio</title>
+
+  <!-- Brief Description of Page -->
+  <meta name="description" content="This is the main page of an accessible version of Ryan North's Dinosaur Comics.">
+  <meta name="keywords" content="accessibility,Dinosaur Comics,Ryan North,Accessible Dinos,accessible comics,web comics,accessible web comics"/>
+
+  <!-- Dependencies -->
+  <script src="./AblePlayer/thirdparty/modernizr.custom.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./AblePlayer/thirdparty/js.cookie.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./AblePlayer/build/ableplayer.min.css" type="text/css"/>
+
+  <!-- JavaScript -->
+  <script src="./AblePlayer/build/ableplayer.min.js"></script>
+
+  <!-- MY CSS!!! -->
+  <link href="css/styles.css" rel="stylesheet" media="all">
+
+  <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width,
+  and setting the initial page zoom level to be 1 (initial-scale=1.0), and fixinng width=device-width for iOS9 (shtink-to-fit=no) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+</head>
+
+<body>
+  <header>
+    <center>
+      <a href="./index.html">
+        <!-- <h1 class="hidden">[Accessible] Dinosaur Comics</h1> -->
+        <img class="header" src="media/Logo/accessibleLogo.png" alt="[Accessible] Dinosaur Comics" tabindex="0">
+        <h1 class="hidden" tabindex="0"><em>[Accessible] Dinosaur Comics</em></h1>
+      </a>
+    </center>
+    <center>
+      <flex-wrap>
+      <ul class="horizontal-list">
+        <li tabindex="0"><a href="./about.html">about</a></li>
+        <li class="padded-bullet">•</li>
+        <li tabindex="0"><a href="./archive.html">archive</a></li>
+        <li class="padded-bullet">•</li>
+        <li tabindex="0"><a href="./index#NewestComic">newest(ish) comic</a></li>
+        <li class="padded-bullet">•</li>
+        <li tabindex="0"><a href="http://www.qwantz.com/index.php"><abbr title="qwantz.com">original site</abbr></a></li>
+      </ul>
+    </flex-wrap>
+    </center>
+  </header>
+
+  <div class="wrap">
+
+
+
+    <main role="main">
+      <section id="Comic">
+        <br>
+        <center>
+          <!-- Content -->
+          <a href="./2018-4-18.png">
+            <img src="./media/originalComics/2018-4-18.png" width=50% height=50% alt="Comic from April 18, 2018" title="*LONG DRAMATIC SIGH THAT REPEATS OCCASIONALLY WITH INCREASING INTENSITY UNTIL SOMEONE NOTICES*" tabindex="0">
+          </a>
+          <p tabindex="0">
+            This comic is from <strong>April 18, 2018</strong>.
+          </p>
+          <ul class="horizontal-list" style="margin-left: 0">
+
+            <li tabindex="0"><a href="./2018-4-18-script.html" alt="Transcript" title="Read the transcript!">TRANSCRIPT</a></li>
+            <li class="padded-bullet">•</li>
+            <li tabindex="0"><a href="./2018-4-18-audio.html" alt = "Audio" title="Listen to the audio description!">AUDIO</a></li>
+            <li class="padded-bullet">•</li>
+            <li tabindex="0"><a href="./2018-4-18-video.html" alt="Video" title="watch the described video!">VIDEO</a></li>
+          </ul>
+        </center>
+      </section>
+      <section id="Audio">
+        <h2 tabindex="0">April 18, 2018 - Video!</h2>
+        <br>
+        <center>
+          <video id="video1" data-able-player preload="auto" width="720" height="480" poster="./media/originalComics/2018-4-18.png">
+            <source type="video/webm" src="./media/AV/2018-4-18.webm" data-desc-src="./media/AV/2018-4-18.webm"/>
+            <source type="video/mp4" src="./media/AV/2018-4-18.mp4" data-desc-src="./media/AV/2018-4-18.mp4"/>
+            <track kind="captions" src="./media/AV/2018-4-18.vtt"/>
+            <track kind="descriptions" src="./media/AV/2018-4-18.vtt"/>
+          </video>
+        </center>
+        <br>
+        <center tabindex="0">
+          Copyright &copy; Ryan North 2018
+        </center>
+      </section>
+
+      <br>
+      <br>
+      <center>
+        <address>
+          <p tabindex="0">For further information about creating accessible comics, please contact <a href="mailto:brithosul@gmail.com">Brian</a>.</p>
+        </address>
+      </center>
+    </main>
+
+  </div>
+
+  <footer role="contentinfo">
+    <center>
+      <small tabindex="0">Comics are &copy; Ryan North <time datetime="2003-2018">2003-2018</time>.</small>
+      <small tabindex="0">Website is &copy; Brian T. Sullian <time datetime="2018">2018</time>.</small>
+    </center>
+  </footer>
